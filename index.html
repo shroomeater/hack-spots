@@ -61,7 +61,7 @@
         <table>
             <tr><th class="tHeader">C&oacute;digo</th><th class="tHeader">Año</th><th class="tHeader">Solicitud</th><th class="tHeader">Administrativo</th><th class="tHeader">Solicitante</th><th class="tHeader">Situaci&oacute;n</th><th class="tHeader">Fecha solicitud</th><th class="tHeader">Estado</th><th class="">Elsewhere</th></tr>
             {{#rows}}
-                <tr id="{{rowNumber}}" class="spotRow"><td>{{codexpte}}</td><td>{{año}}</td><td>{{solicitud}}</td><td>{{admnivo}}</td><td>{{solicitante}}</td><td><td>{{situacion}}</td><td>{{fecha_solicitud}}</td><td>{{estado}}</td><td><a class="button" href="https://maps.google.com/maps?q={{situacion}}" target="_blank">G Map</a> </td></tr>
+                <tr id="{{rowNumber}}" class="spotRow"><td>{{codexpte}}</td><td>{{año}}</td><td>{{solicitud}}</td><td>{{admnivo}}</td><td>{{solicitante}}</td><td><td>{{situacion}}</td><td>{{fechasolicitud}}</td><td>{{estado}}</td><td><a class="button" href="https://maps.google.com/maps?q={{situacion}}" target="_blank">G Map</a> </td></tr>
             {{/rows}}
         </table>
     </script>
@@ -77,7 +77,7 @@
                 <li><span class="category">Solicitante:</span> {{solicitante}}</li>
                 <li><span class="category">Situacion:</span> {{situacion}}</li>
                 <li><span class="category">Tramita:</span> {{admnivo}}</li>
-                <li><span class="category">Fecha solicitud:</span> {{fecha_solicitud}}</li>
+                <li><span class="category">Fecha solicitud:</span> {{fechasolicitud}}</li>
                 <li><span class="category">Estado actual:</span> {{estado}}</li>
               <!--  <li><span class="category">Contributed By:</span> <a href="http://www.twitter.com/{{contributerstwitter}}" target="_blank">@{{contributerstwitter}}</a></li>-->
             </ul>
@@ -105,7 +105,7 @@
               <li><span class="category">Solicitante:</span> {{solicitante}}</li>
               <li><span class="category">Situacion:</span> {{situacion}}</li>
               <li><span class="category">Tramita:</span> {{admnivo}}</li>
-              <li><span class="category">Fecha solicitud:</span> {{fecha_solicitud}}</li>
+              <li><span class="category">Fecha solicitud:</span> {{fechasolicitud}}</li>
               <li><span class="category">Estado actual:</span> {{estado}}</li>
             </ul>
             <ul>
